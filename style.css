@@ -9,6 +9,13 @@ body{
     background-position-y: 1000px;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    border-bottom: solid black;
+    border-width: 3px;
 }
 
 nav{
@@ -52,11 +59,16 @@ nav{
 
 .titulo1{
     font-family: 'Black Ops One';
+    border: solid black;
     text-align: center;
     font-size: 75px;
-    text-shadow: 2px 2px black;
-    color: rgb(98,44,44);
-    color: linear-gradient(180deg, rgba(98,44,44,1) 21%, rgba(16,41,105,1) 86%);
+    background: rgb(215,0,0);
+    background: radial-gradient(circle, rgba(215,0,0,1) 46%, rgba(124,0,0,1) 100%);
+}
+
+div{
+    display: flex;
+    flex-direction: column;
 }
 
 .titulo2{
@@ -108,13 +120,7 @@ nav{
 }
 
 .pie1{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    height: 50px;
-    justify-content: space-around;
-    margin-left: 90%;
-    margin-top: 22%;
+   
 }
 
 .pie2{
