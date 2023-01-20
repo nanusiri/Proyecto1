@@ -47,9 +47,10 @@ nav{
 .titulo1{
     font-family: 'Black Ops One';
     text-align: center;
-    color: white;
     font-size: 75px;
     text-shadow: 2px 2px black;
+    color: rgb(98,44,44);
+    color: linear-gradient(180deg, rgba(98,44,44,1) 21%, rgba(16,41,105,1) 86%);
 }
 
 .titulo2{
