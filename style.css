@@ -13,12 +13,7 @@ body{
     flex-direction: column;
 }
 
-header{
-    border-bottom: solid black;
-    border-width: 3px;
-}
-
-nav{
+#Q{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -69,6 +64,48 @@ nav{
 div{
     display: flex;
     flex-direction: column;
+}
+
+#A{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.c1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mancuerna{
+    width: 400px;
+    
+}
+
+.boton{
+    font-family: 'Black Ops One';
+    font-size: 55px;
+    background: linear-gradient(yellow ,rgb(51, 50, 50));
+    -webkit-background-clip: text;
+    color: transparent;
+    position: absolute;
+}
+
+.boton2{
+    font-family: 'Black Ops One';
+    font-size: 55px;
+    color: rgb(188, 188, 30);
+    text-shadow: 3px 3px black;
+    position: absolute;
 }
 
 .titulo2{
