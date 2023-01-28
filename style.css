@@ -142,15 +142,15 @@ div{
 }
 
 .pie1{
-   position: absolute;
+   position: absolute; 
    bottom: 0;
    width: 100%;
    display: flex;
-   justify-content: end;
+   justify-content: center;
    height: 40px;
 }
 
 .foot{
-    padding-left: 5px;   
-    padding-right: 5px;
+    padding-left: 10px;   
+    padding-right: 10px;
 }
