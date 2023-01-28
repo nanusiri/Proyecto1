@@ -55,6 +55,7 @@ body{
 .titulo1{
     font-family: 'Black Ops One';
     border: solid black;
+    color: black;
     text-align: center;
     font-size: 75px;
     background: rgb(215,0,0);
@@ -74,21 +75,14 @@ div{
 }
 
 .c{
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.c{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
 .mancuerna{
     width: 400px;
-    
 }
 
 .boton{
