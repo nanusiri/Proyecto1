@@ -4,7 +4,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(fotoinicio.jpg);
+    background-image: url(../assets/img/fotoinicio.jpg);
     background-size: 100%;
     background-position-y: 1000px;
     margin: 0;
@@ -60,6 +60,7 @@ body{
     font-size: 75px;
     background: rgb(215,0,0);
     background: radial-gradient(circle, rgba(215,0,0,1) 46%, rgba(124,0,0,1) 100%);
+    text-shadow: 1px 1px black;
 }
 
 div{
@@ -120,8 +121,11 @@ div{
 .texto1{
     color: white;
     text-shadow: 2px 2px black;
-    margin-left: 80px;
+    margin-left: 150px;
     font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.258);
+    font-family: 'Secular One', sans-serif;
+    margin-right: 150px;
 }
 
 .servicios{
@@ -169,4 +173,34 @@ div{
 .foot{
     padding-left: 10px;   
     padding-right: 10px;
+}
+
+.titulo3{
+    font-family: 'Black Ops One';
+    border: solid black;
+    color: black;
+    text-align: center;
+    font-size: 75px;
+    background: rgb(215,0,0);
+    background: radial-gradient(circle, rgba(215,0,0,1) 81%, rgba(166,3,34,1) 94%); 
+    text-shadow: 1px 1px black;
+}
+
+.subtitulo{
+    text-decoration: none;
+    font-family: 'Black Ops One';
+    font-size: 35px;
+    color: rgb(196, 3, 3);
+    text-shadow: 3px 3px black;
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+}
+
+.texto2{
+    color: white;
+    font-size: 15px;
+    font-family: 'Secular One', sans-serif;
 }
