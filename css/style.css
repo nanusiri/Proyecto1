@@ -203,4 +203,22 @@ div{
     color: white;
     font-size: 15px;
     font-family: 'Secular One', sans-serif;
+    text-align: justify;
+}
+
+.contenedor{
+    padding-top: 50px;
+}
+
+.margin{
+    margin-left: 200px;
+    background-color: rgba(0, 0, 0, 0.306);
+}
+
+#X{
+    background-color: red;
+}
+
+#C{
+    background-color: blue;
 }
